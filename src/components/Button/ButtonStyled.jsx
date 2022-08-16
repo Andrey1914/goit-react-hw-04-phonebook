@@ -5,20 +5,19 @@ export const StyledButton = styled.button`
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: ${p => p.theme.space[2]}px;
-  padding-left: ${p => p.theme.space[4]}px;
-  height: 30px;
+  padding: 0;
+  width: ${p => p.theme.space[8]}px;
+  height: ${p => p.theme.space[5]}px;
   cursor: pointer;
   border: ${p => p.theme.borders.none};
-  border-radius: ${p => p.theme.radii.normal};
+  border-radius: ${p => p.theme.radii.small};
   transition: background-color 250ms linear, transform 250ms ease-in-out;
-  background-color: ${p => p.theme.colors.bgc};
-  background-color: rgb(101, 227, 255);
+  background-color: rgb(0, 157, 192);
   box-shadow: 0px 3px 5px 1px rgba(45, 90, 124, 0.2);
   :hover,
   :focus {
-    background-color: ${p => p.theme.colors.bgcHover};
-    color: ${p => p.theme.colors.textHover};
+    background-color: rgb(0, 91, 157);
+    color: ${p => p.theme.colors.muted};
     transform: scale(1.02);
   }
 `;

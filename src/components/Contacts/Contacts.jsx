@@ -6,7 +6,7 @@ import { Box } from 'components/Box';
 
 export default function Contacts({ contacts, onDeleteContacts }) {
   return (
-    <Box as="ul" display="flex" flexDirection="column" px={5}>
+    <Box as="ul" display="flex" flexDirection="column">
       {contacts.map(({ id, name, number }) => {
         return (
           <Box

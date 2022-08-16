@@ -62,10 +62,12 @@ export default function Form({ onRiseContact }) {
           required
         />
       </Label>
-      <Button type="submit">
-        Add contact
-        <IoMdPersonAdd size={20} />
-      </Button>
+      <Box display="flex" justifyContent="center" pb={4} borderBottom="normal">
+        <Button type="submit">
+          Add contact
+          <IoMdPersonAdd size={20} />
+        </Button>
+      </Box>
     </Box>
   );
 }

@@ -1,4 +1,24 @@
 import styled from '@emotion/styled';
-import { color, shadow, space, layout, border, flexbox } from 'styled-system';
+import {
+  color,
+  space,
+  layout,
+  flexbox,
+  grid,
+  shadow,
+  border,
+  typography,
+  background,
+} from 'styled-system';
 
-export const Box = styled('div')(color, shadow, space, layout, border, flexbox);
+export const Box = styled('div')(
+  color,
+  space,
+  layout,
+  flexbox,
+  grid,
+  shadow,
+  border,
+  typography,
+  background
+);

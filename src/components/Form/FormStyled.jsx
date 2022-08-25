@@ -6,6 +6,7 @@ export const Input = styled.input`
   margin-bottom: ${p => p.theme.space[4]}px;
   border-radius: ${p => p.theme.radii.small};
   background-color: transparent;
+  border: none;
   border: 1px solid #ccc;
   outline-color: #ccc;
 `;
